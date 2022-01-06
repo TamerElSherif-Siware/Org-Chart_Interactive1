@@ -17,7 +17,8 @@
     <script>
       var chart;
       d3.csv(
-        'https://raw.githubusercontent.com/bumbeishvili/sample-data/main/org.csv'
+        //'https://raw.githubusercontent.com/bumbeishvili/sample-data/main/org.csv'
+        'https://drive.google.com/file/d/1GEHjU0ThV3M7t--CWgfXwQDJbCcaUvNh/view?usp=sharing'
       ).then((dataFlattened) => {
         dataFlattened.forEach((d) => {
           const val = Math.round(d.name.length / 2);
